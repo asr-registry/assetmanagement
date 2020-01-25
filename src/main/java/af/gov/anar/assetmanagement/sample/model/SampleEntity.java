@@ -30,4 +30,7 @@ public class SampleEntity {
 
     @ApiModelProperty(notes = "The name property of sample entity")
     private String name;
+
+    @Version
+    private int version;
 }
