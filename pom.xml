@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>af.gov.anar</groupId>
-	<artifactId>anar-servicetemplate</artifactId>
+	<artifactId>anar-assetmanagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>anar-servicetemplate</name>
-	<description>Service Template for Developing Services for Anar Framework</description>
+	<name>anar-assetmanagement</name>
+	<description>Asset Management Service</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,6 +31,12 @@
 		<dependency>
 			<groupId>af.gov.anar.lib</groupId>
 			<artifactId>anar-lib-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.gov.anar.lib</groupId>
+			<artifactId>anar-lib-json</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
